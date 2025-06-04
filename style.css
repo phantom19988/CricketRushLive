@@ -25,6 +25,11 @@ header {
   border-bottom: 1px solid #ddd;
 }
 
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
 header h1 {
   font-size: 28px;
   color: #ffcc00;
@@ -117,10 +122,11 @@ nav a:hover {
   text-align: center;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
   transition: transform 0.3s;
+   border-left: 3px solid #e6b800;
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-1px);
 }
 
 .card h3 {
@@ -147,6 +153,12 @@ footer {
   padding: 20px 0;
   border-top: 1px solid #ccc;
 }
+
+footer .container{
+  display: flex;
+  justify-content: space-between;
+}
+
 
 footer p {
   color: #555;
